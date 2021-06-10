@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 namespace Unity.FPS.AI
 {
-    [RequireComponent(typeof(Health), typeof(Actor), typeof(NavMeshAgent))]
+    [RequireComponent(typeof(Health), typeof(Actor), typeof(NavMeshAgent))] //this is a comment
     public class EnemyController : MonoBehaviour
     {
         [System.Serializable]
